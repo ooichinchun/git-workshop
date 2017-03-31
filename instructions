@@ -1,0 +1,39 @@
+command line
+ 
+ssh-keygen
+
+--Generates key file, id_rsa.pub in cd ~/.ssh
+
+1) Put that under Github's Settings tab --> SSH and GPG Keys (copy and paste over the file)
+
+command line
+
+git config --global user.name "Ooi Chin Chun"
+
+git config --global user.mail ooichinchun@gmail.com
+
+2) Copy text from clone with SSH option in Github web interface
+
+command line
+
+git clone (text from above)
+
+git add main.c (adds main.c for tracking)
+
+git diff origin/master (compares changes between what's on the original repository's master branch and local)
+
+git commit -e
+
+git push master origin
+
+
+
+git checkout -b feature1 (creates a new branch of name feature1)
+
+git branch (shows the current branch with the asterisk)
+
+git add main.c
+git commit -e
+git push origin feature1 (creates a new branch to feature1)
+
+
