@@ -3,6 +3,7 @@
 
 void hello1(void)
 {
+const char msg[] = "This is displayed\n";
 printf(stdout,"This is displayed\n");
 }
 
