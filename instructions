@@ -37,3 +37,9 @@ git commit -e
 git push origin feature1 (creates a new branch to feature1)
 
 
+git merge feature1
+git push origin master (must push again after merge; merge is only a commit equivalent)
+
+git branch -d feature1
+
+git push origin --delete feature1
